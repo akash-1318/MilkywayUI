@@ -1,0 +1,34 @@
+@import url(home.css);
+@import url(header.css);
+@import url(sidebar.css);
+@import url(footer.css);
+@import url(common.css);
+@import url(componentStyle/Avatar.css);
+@import url(componentStyle/Alert.css);
+@import url(componentStyle/Badge.css);
+@import url(componentStyle/Button.css);
+@import url(componentStyle/Card.css);
+@import url(componentStyle/Image.css);
+@import url(componentStyle/Input.css);
+
+:root {
+    --font-color: rgb(70, 70, 70);
+    --back-color: #405fca;
+    --primary-color: #8292fd;
+    --secondry-color:#eaeaec;
+    --secondry-text-color:#696b79;
+    --dark-secondry-color:#d8d8da;
+    --dark-secondry-text-color:#3f4049;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62.5%;
+    font-family: 'Roboto', sans-serif;
+    color: var(--font-color);
+}
