@@ -35,6 +35,9 @@
 
 .avatar{
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .avatar-item{
@@ -73,12 +76,6 @@
     border: 1px solid rgb(194, 194, 194);
     border-radius: 5px;
     margin-bottom: 6rem;
-}
-
-.avatar__flex-item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .lg__text-avatar{
