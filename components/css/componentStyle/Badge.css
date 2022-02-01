@@ -23,7 +23,7 @@
     background-color:teal;
 }
 
-.badge1{
+.badge1, .badge2{
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
@@ -39,17 +39,7 @@
 }
 
 .badge2{
-    height: 2rem;
-    width: 2rem;
-    border-radius: 50%;
     background-color: #3f51b5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    color: white;
-    position: absolute;
-    top: -1rem;
     left: 11rem;
 }
 
