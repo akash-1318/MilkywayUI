@@ -8,38 +8,38 @@
 }
 
 .primary__alert{
-    background-color: #cfe2ff;
+    background-color: var(--alert-primary-bgcolor);
     border-color: #b6d4fe;
-    color: #084298;
+    color: var(--primary-textcolor);
 }
 
 .secondry__alert{
-    color: #41464b;
-    background-color: #e2e3e5;
+    color: var(--alert-secondry-textcolor);
+    background-color: var(--alert-secondry-bgcolor);
     border-color: #d3d6d8;
 }
 
 .success__alert{
-    color: #0f5132;
-    background-color: #d1e7dd;
+    color: var(--success-textcolor);
+    background-color: var(--success-bgcolor);
     border-color: #badbcc;
 }
 
 .danger__alert{
-    color: #842029;
+    color: var(--danger-textcolor);
     background-color: #f8d7da;
     border-color: #f5c2c7;
 }
 
 .warning__alert{
-    color: #664d03;
-    background-color: #fff3cd;
+    color: var(--warning-textcolor);
+    background-color: var(--warning-bgcolor);
     border-color: #ffecb5;
 }
 
 .info__alert{
-    color: #055160;
-    background-color: #cff4fc;
+    color: var(--info-textcolor);
+    background-color: var(--info-bgcolor);
     border-color: #b6effb;
 }
 
