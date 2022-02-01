@@ -1,0 +1,113 @@
+.badge__items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.badges{
+    margin-left: 4rem;
+    position: relative;
+}
+
+.action_btn{
+    width: 12rem;
+    padding: 1rem;
+    border: none;
+    background-color: #3f51b5;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.action_btn.home{
+    background-color:teal;
+}
+
+.badge1, .badge2, .badge__on-text{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+    top: -1rem;
+    left: -1rem;
+}
+
+.badge2{
+    background-color: #3f51b5;
+    left: 11rem;
+}
+
+.badge2.and3{
+    top: -.5rem;
+    left: 1.5rem;
+    background-color: tomato;
+}
+
+.badges > i {
+    font-size: 3rem;
+}
+
+.badge__text{
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.lg__badge{
+    height: 3rem;
+    width: 3rem;
+    top: -2rem;
+    right: -2rem;
+}
+
+.lg__badge > p {
+    font-size: 1.5rem;
+}
+
+.status_badge{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    background-color: tomato;
+    border: 2px solid white;
+    position: absolute;
+    bottom: 1.2rem;
+    right: 2rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.text__badge{
+    background-color: #ff9800;
+    padding: .5rem;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+    min-width: 2rem;
+    position:absolute;
+    bottom: 3rem;
+    left: 2rem;
+}
+
+.badge__avatar{
+    position: relative;
+}
+
+.md__badge{
+    bottom: 2rem;
+    left: 1rem;
+}
+
+.sm__badge{
+    border-radius: 20px;
+    bottom: 3px;
+    left: 1.7rem;
+    font-size: .8rem;
+}
