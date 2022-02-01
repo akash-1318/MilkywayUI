@@ -23,7 +23,7 @@
     background-color:teal;
 }
 
-.badge1, .badge2{
+.badge1, .badge2, .badge__on-text{
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
@@ -51,21 +51,6 @@
 
 .badges > i {
     font-size: 3rem;
-}
-
-.badge__on-text{
-    height: 2rem;
-    width: 2rem;
-    border-radius: 50%;
-    background-color: tomato;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    color: white;
-    position: absolute;
-    top: -1rem;
-    right: -1rem;
 }
 
 .badge__text{
