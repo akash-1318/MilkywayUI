@@ -1,0 +1,51 @@
+.radio{
+    font-size: 2rem;
+    margin: 0rem 0rem 2rem 2rem;
+    display: flex;
+}
+
+.radio__input{
+    height: 2rem;
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.input__group{
+    font-size: 1.3rem;
+    margin: 0rem 2rem 2rem 2rem;
+}
+
+.input__group > label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input__group > input {
+    padding: 1rem;
+    min-width: 30rem;
+}
+
+.input__group-filled{
+    background-color: rgb(244, 244, 244);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(97, 97, 97);
+}
+
+.filled__input-error{
+    border-bottom: 2px solid tomato;
+}
+
+.input__error-style{
+    border: 1px solid tomato;
+    border-radius: 4px;
+    outline: none;
+}
+
+.error__text{
+    display: block;
+    margin-top: .5rem;
+    color: tomato;
+}

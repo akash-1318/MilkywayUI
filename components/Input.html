@@ -36,7 +36,89 @@
                 </ul>
             </aside>
             <div class="main__grid-item">
-                
+                <div class="component">
+                    <p class="component__heading">Input fields</p>
+                    <p class="component__text">Inputs are necessary for user interaction with the 
+                        website. Inputs are used to take information from the user, and then save the 
+                        data to the server, accordingly.</p>
+                    <p class="component__heading-primary">Radio Inputs</p>
+                    <p class="component__sub-text">
+                        Radio buttons allow the user to select one option from a set.
+                    </p> 
+                    <div class="component__view">
+                         <div class="radio">
+                             <label for="radio-1">
+                                 <input type="radio" name="radio" class="radio__input" checked/>
+                             </label>
+                             Checked
+                         </div>
+                         <div class="radio">
+                            <label for="radio-2">
+                                <input type="radio" name="radio" class="radio__input"/>
+                            </label>
+                            Unchecked
+                        </div>
+                        <div class="radio">
+                            <label for="radio-1">
+                                <input type="radio" name="radio" class="radio__input" disabled/>
+                            </label>
+                            Disabled
+                        </div>
+                    </div> 
+                    <div class="code__snippet">
+                        <iframe
+                        src="https://carbon.now.sh/embed/bvN3mp4Du9iZYmGbApFo"
+                        style="width: 757px; height: 510px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="component__heading-primary">Simple input fields</p>
+                    <p class="component__sub-text">
+                       These are some simple Input fields styles you can include in your project.
+                    </p> 
+                    <div class="component__view input__flex-items">
+                        <div class="input__group">
+                            <input type="text" placeholder="User name"/>
+                        </div>
+                        <div class="input__group">
+                            <input type="text" placeholder="Email" class="input__group-filled"/>
+                        </div>
+                        <div class="input__group">
+                            <input type="text" placeholder="disabled" disabled/>
+                        </div>
+                    </div> 
+                    <div class="code__snippet">
+                        <iframe
+                        src="https://carbon.now.sh/embed/rVAsMWegJr3QsO59x8fC"
+                        style="width: 757px; height: 348px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>   
+                    
+                    <p class="component__heading-primary">Input fields with Validation and Error style</p>
+                    <p class="component__sub-text">
+                       Here are some input fields style with Validation and error style to showcase 
+                       information about incorrect details. These can be used in form validation.
+                    </p> 
+                    <div class="component__view input__flex-items">
+                        <div class="input__group">
+                            <input type="text" placeholder="User name" class="input__error-style"/>
+                            <lable class="error__text">Incorrect username *</lable>
+                        </div>
+                        <div class="input__group">
+                            <input type="text" placeholder="Email" class="input__group-filled filled__input-error"/>
+                            <lable class="error__text">Incorrect Email *</lable>
+                        </div>
+                    </div> 
+                    <div class="code__snippet">
+                        <iframe
+                        src="https://carbon.now.sh/embed/2P85qFxC2mi8UjKtzIr4"
+                        style="width: 926px; height: 330px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div> 
+                </div>
             </div>
         </section>
     </main>
