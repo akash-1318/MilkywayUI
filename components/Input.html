@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Milkyway</title>
-    <link rel="stylesheet" href="css/main.css"></link>
+    <link rel="stylesheet" href="css/main.css">
+    </link>
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <main class="main__v2">
         <header class="header__nav">
@@ -26,20 +29,112 @@
             <aside class="sidebar">
                 <p class="sidebar__heading">Components</p>
                 <ul class="sidebar__menu">
-                    <li class="sidebar__menu-link"><a href="Avatar.html"><p>Avatar</p></a></li>
-                    <li class="sidebar__menu-link"><a href="Alert.html"><p>Alert</p></a></li>
-                    <li class="sidebar__menu-link"><a href="Badge.html"><p>Badge</p></a></li>
-                    <li class="sidebar__menu-link"><a href="Button.html"><p>Button</p></a></li>
-                    <li class="sidebar__menu-link"><a href="Card.html"><p>Card</p></a></li>
-                    <li class="sidebar__menu-link"><a href="Image.html"><p>Image</p></a></li>
-                    <li class="sidebar__menu-link"><a href="#"><p>Input</p></a></li>
+                    <li class="sidebar__menu-link"><a href="Avatar.html">
+                            <p>Avatar</p>
+                        </a></li>
+                    <li class="sidebar__menu-link"><a href="Alert.html">
+                            <p>Alert</p>
+                        </a></li>
+                    <li class="sidebar__menu-link"><a href="Badge.html">
+                            <p>Badge</p>
+                        </a></li>
+                    <li class="sidebar__menu-link"><a href="Button.html">
+                            <p>Button</p>
+                        </a></li>
+                    <li class="sidebar__menu-link"><a href="Card.html">
+                            <p>Card</p>
+                        </a></li>
+                    <li class="sidebar__menu-link"><a href="Image.html">
+                            <p>Image</p>
+                        </a></li>
+                    <li class="sidebar__menu-link"><a href="#">
+                            <p>Input</p>
+                        </a></li>
                 </ul>
             </aside>
             <div class="main__grid-item">
-                
+                <div class="component">
+                    <p class="component__heading">Input fields</p>
+                    <p class="component__text">Inputs are necessary for user interaction with the
+                        website. Inputs are used to take information from the user, and then save the
+                        data to the server, accordingly.</p>
+                    <p class="component__heading-primary">Radio Inputs</p>
+                    <p class="component__sub-text">
+                        Radio buttons allow the user to select one option from a set.
+                    </p>
+                    <div class="component__view">
+                        <div class="radio">
+
+                            <input type="radio" name="radio" class="radio__input" checked />
+
+                            Checked
+                        </div>
+                        <div class="radio">
+
+                            <input type="radio" name="radio" class="radio__input" />
+
+                            Unchecked
+                        </div>
+                        <div class="radio">
+
+                            <input type="radio" name="radio" class="radio__input" disabled />
+
+                            Disabled
+                        </div>
+                    </div>
+                    <div class="code__snippet">
+                        <iframe src="https://carbon.now.sh/embed/bvN3mp4Du9iZYmGbApFo"
+                            style="width: 757px; height: 510px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="component__heading-primary">Simple input fields</p>
+                    <p class="component__sub-text">
+                        These are some simple Input fields styles you can include in your project.
+                    </p>
+                    <div class="component__view input__flex-items">
+                        <div class="input__group">
+                            <input type="text" placeholder="User name" />
+                        </div>
+                        <div class="input__group">
+                            <input type="text" placeholder="Email" class="input__group-filled" />
+                        </div>
+                        <div class="input__group">
+                            <input type="text" placeholder="disabled" disabled />
+                        </div>
+                    </div>
+                    <div class="code__snippet">
+                        <iframe src="https://carbon.now.sh/embed/rVAsMWegJr3QsO59x8fC"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="component__heading-primary">Input fields with Validation and Error style</p>
+                    <p class="component__sub-text">
+                        Here are some input fields style with Validation and error style to showcase
+                        information about incorrect details. These can be used in form validation.
+                    </p>
+                    <div class="component__view input__flex-items">
+                        <div class="input__group">
+                            <input type="text" placeholder="User name" class="input__error-style" id="name-input" />
+                            <lable class="error__text" for="name-input">Incorrect username *</lable>
+                        </div>
+                        <div class="input__group">
+                            <input type="text" placeholder="Email" class="input__group-filled input__fileld-error" id="email-input" />
+                            <label class="error__text" for="email-input">Incorrect Email *</label>
+                        </div>
+                    </div>
+                    <div class="code__snippet">
+                        <iframe src="https://carbon.now.sh/embed/2P85qFxC2mi8UjKtzIr4"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
 </body>
+
 </html>
