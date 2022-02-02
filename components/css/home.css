@@ -93,7 +93,8 @@
 }
 
 .info__content-right{
-    border: 1px solid black;
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
 }
 
 .install__info{
