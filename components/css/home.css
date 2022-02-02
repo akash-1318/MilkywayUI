@@ -26,13 +26,9 @@
 }
 
 .action__btns{
-    display: flex;
     align-items: center;
-    height: 6rem;
-    border: 2px solid var(--primary-color);
     border-radius: 50px;
     margin-top: 2rem;
-    width: 55rem;
     justify-content: space-around;
 }
 
@@ -43,11 +39,16 @@
     border: none;
     cursor: pointer;
     color: var(--font-color);
+    border: 2px solid var(--primary-color);
+    min-width: 26rem;
+    max-width: 26rem;
+    margin-bottom: 2rem;
 }
 
 .action__btn-comp:hover{
     background-color: #d9deff;
     color: white;
+    border: 2px solid white;
 }
 
 .action__btn-dev{
@@ -58,6 +59,9 @@
     color: white;
     border: none;
     cursor: pointer;
+    min-width: 23rem;
+    max-width: 23rem;
+    margin-bottom: 2rem;
 }
 
 .logo__name-link{
@@ -94,4 +98,16 @@
 
 .install__info{
     margin-top: 4rem;
+}
+
+
+@media only screen and (max-width: 768px){
+    .main__content{
+        grid-template-columns: 100%;
+        grid-gap: 3rem;
+    }
+    .home__page-svg{
+        height: 50vh;
+        width: 65vw;
+    }
 }
