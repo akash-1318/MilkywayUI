@@ -60,6 +60,10 @@
     cursor: pointer;
 }
 
+.logo__name-link{
+    text-decoration: none;
+}
+
 .action__btn-link1 {
     text-decoration: none;
     color: var(--font-color);
@@ -82,4 +86,12 @@
 
 .action__btn-dev:hover{
     background-color: #687cff;
+}
+
+.info__content-right{
+    border: 1px solid black;
+}
+
+.install__info{
+    margin-top: 4rem;
 }
