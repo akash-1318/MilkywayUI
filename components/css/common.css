@@ -112,4 +112,11 @@
 iframe{
     height: 100% !important;
     width: 100% !important;
+    border: 0;
+    overflow: hidden;
+    transform: scale(1);
+}
+
+.code__snippet-style{
+
 }
