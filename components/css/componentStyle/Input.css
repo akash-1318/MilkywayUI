@@ -34,7 +34,7 @@
     border-bottom: 2px solid rgb(97, 97, 97);
 }
 
-.filled__input-error{
+.input__fileld-error{
     border-bottom: 2px solid tomato;
 }
 
