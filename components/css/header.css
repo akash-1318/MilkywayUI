@@ -29,11 +29,6 @@
     color: var(--primary-color);
 }
 
-.library__logo-name:hover{
-    transform: scale(1.1);
-    transition: .3s ease-in;
-}
-
 .header__nav-right{
     margin-left: auto;
     font-size: 3rem;
