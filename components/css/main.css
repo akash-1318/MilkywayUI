@@ -10,6 +10,7 @@
 @import url(componentStyle/Card.css);
 @import url(componentStyle/Image.css);
 @import url(componentStyle/Input.css);
+@import url(componentStyle/Snackbar.css);
 
 :root {
     --font-color: rgb(70, 70, 70);
@@ -30,7 +31,8 @@
     --warning-bgcolor:#fff3cd;
     --info-textcolor:#055160;
     --info-bgcolor:#cff4fc;
-    --primary-textcolor:#084298
+    --primary-textcolor:#084298;
+    --accent: #ff4081;
 
 }
 
