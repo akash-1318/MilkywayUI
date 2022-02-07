@@ -10,6 +10,7 @@
 @import url(componentStyle/Card.css);
 @import url(componentStyle/Image.css);
 @import url(componentStyle/Input.css);
+@import url(componentStyle/Navigation.css);
 
 :root {
     --font-color: rgb(70, 70, 70);
