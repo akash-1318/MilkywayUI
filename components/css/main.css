@@ -31,8 +31,10 @@
     --warning-bgcolor:#fff3cd;
     --info-textcolor:#055160;
     --info-bgcolor:#cff4fc;
-    --primary-textcolor:#084298
-
+    --primary-textcolor:#084298;
+    --modal-btn-text: #6200ee;
+    --modal-btn-hover: #ebdbff;
+    --dialog-box-bgcolor:rgba(1, 1, 1, 0.5);
 }
 
 *{
