@@ -38,7 +38,7 @@
 }
 
 .snackbar > i:hover {
-    background-color: rgba(94, 94, 94, 0.29);
+    background-color: #5e5e5e;
 }
 
 .snackbar__accent{
@@ -48,7 +48,7 @@
 .snackbar__stacked{
     display: inline-block;
     padding: 2rem;
-    background-color:mediumaquamarine ;
+    background-color:#66cdaa ;
 }
 
 .stacked__btn{
