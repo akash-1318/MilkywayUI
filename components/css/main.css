@@ -11,6 +11,8 @@
 @import url(componentStyle/Image.css);
 @import url(componentStyle/Input.css);
 @import url(componentStyle/Snackbar.css);
+@import url(componentStyle/Modal.css);
+
 
 :root {
     --font-color: rgb(70, 70, 70);
@@ -33,7 +35,9 @@
     --info-bgcolor:#cff4fc;
     --primary-textcolor:#084298;
     --accent: #ff4081;
-
+    --modal-btn-text: #6200ee;
+    --modal-btn-hover: #ebdbff;
+    --dialog-box-bgcolor:rgba(1, 1, 1, 0.5);
 }
 
 *{
