@@ -1,0 +1,86 @@
+.snackbar{
+    width: 30vw;
+    background-color: #333;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.text-snackbar{
+    justify-content: left;
+    padding: 2rem;
+}
+
+.snackbar-first-para{
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+
+.snackbar-second-para{
+    font-size: 1.5rem;
+    color: #bb86fc;
+    cursor: pointer;
+}
+
+.snackbar > i {
+    font-size: 2.5rem;
+    color: #ffffff;
+    cursor: pointer;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.snackbar > i:hover {
+    background-color: #5e5e5e;
+}
+
+.snackbar__accent{
+    background-color: var(--accent);
+}
+
+.snackbar__stacked{
+    display: inline-block;
+    padding: 2rem;
+    background-color:#66cdaa ;
+}
+
+.stacked__btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    width: 50%;
+}
+
+.stacked_icon{
+    font-size: 2.5rem;
+    color: #333;
+    cursor: pointer;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.stacked_icon:hover{
+    transform: scale(1.3);
+    transition: .3s ease-in;
+}
+
+.stacked__para{
+    color: #333;
+}
+
+.stacked__para:hover{
+    transform: scale(1.1);
+    transition: .3s ease-in;
+}

@@ -50,48 +50,41 @@
                     <li class="sidebar__menu-link"><a href="Input.html">
                             <p>Input</p>
                         </a></li>
-                    <li class="sidebar__menu-link"><a href="Modal.html">
-                        <p>Modal</p>
-                    </a></li>
                 </ul>
             </aside>
             <div class="main__grid-item">
                 <div class="component">
-                    <p class="component__heading">Responsive Images</p>
-                    <p class="component__text">Responsive Image Components are used to display Images
-                        on websites, which are screen responsive. They expand upto the width of the
-                        container they are in.</p>
-                    <p class="component__heading-primary">Round Images</p>
+                    <p class="component__heading">Snackbar</p>
+                    <p class="component__text">Snackbars are used to show small and quick messages and can contain a single action button like Dismiss or cancel. </p>
+                    <p class="component__heading-primary">Text and dismiss snackbar</p>
                     <p class="component__sub-text">
-
+                        Here are simple text and dismiss snackbars you can implement in your 
+                        project. Just add different classes for different snackbar along with 
+                        class <span class="comp__detail-text">.snackbar</span> like for text use <span class="comp__detail-text">.text-snackbar</span>
                     </p>
-                    <div class="component__view avatar__comp">
-                        <div class="round__image-div">
-                            <img src="/assets/images/Pika.jpeg" alt="img" class="img__round" />
+                    <div class="component__view">
+                        <div class="snackbar text-snackbar">
+                            <p class="snackbar-first-para">Can't send photo. Retry in 5 seconds.</p> 
                         </div>
-                        <div class="round__image-div">
-                            <img src="/assets/images/spiderman.jpg" alt="img" class="img__round" />
+            
+                        <div class="snackbar snackbar__accent">
+                            <p class="snackbar-first-para">Can't send photo. Retry in 5 seconds.</p>
+                            <p class="snackbar-second-para">Undo</p>
+                            <i class='bx bx-x'></i>
+                        </div>
+
+                        <div class="snackbar snackbar__stacked">
+                            <p class="snackbar-first-para">This item already has the label "travel". You can add a new label.</p>
+                            <div class="stacked__btn">
+                            <p class="snackbar-second-para stacked__para">Add a new label</p>
+                            <i class='bx bx-x stacked_icon'></i>
+                            </div> 
                         </div>
                     </div>
                     <div class="code__snippet">
-                        <iframe src="https://carbon.now.sh/embed/3cvvSiCBwO4m9mcG082p"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </div>
-
-                    <p class="component__heading-primary">Full width Image</p>
-                    <p class="component__sub-text">
-                        Full Width Image is the one that expands to cover the container it is present
-                        in.
-                    </p>
-                    <div class="component__view avatar__comp">
-                        <div class="full__width-img">
-                            <img src="/assets/images/minions.jpg" class="img__style" />
-                        </div>
-                    </div>
-                    <div class="code__snippet">
-                        <iframe src="https://carbon.now.sh/embed/6lVrx3YqoDGUDgDBvrlA"
-                            sandbox="allow-scripts allow-same-origin">
+                        <iframe
+                        src="https://carbon.now.sh/embed/vUoQA1nckUSQl2qKSNJI"
+                        sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
                 </div>
