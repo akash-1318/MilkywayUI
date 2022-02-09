@@ -1,0 +1,106 @@
+.header{
+    padding: 2rem 4rem;
+    box-shadow: 5px 5px 15px var(--secondry-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav-left{
+    display: flex;
+}
+
+.header__nav-left > img {
+    height: 4rem;
+    width: 4rem;
+    margin-right: 2rem;
+}
+
+.logo__name{
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+.header__nav-middle{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search__icon{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.header__search{
+    padding: .8rem 4rem;
+    font-size: 1.5rem;
+    outline: none;
+    border-radius: 4px;
+    width: 35rem;
+    background-color: var(--secondry-color);
+    border: none;
+}
+
+.header__nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.header__icons > a{
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.login__btn{
+    padding: .7rem 2rem;
+    font-size: 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 4px;
+    margin-right: 2rem;
+    cursor: pointer;
+    border: none;
+}
+
+.icon__badge{
+    position: relative;
+    margin: 0rem 1rem 0rem 2rem;
+    cursor: pointer;
+}
+
+.icon__badge > i {
+    font-size: 3rem;
+}
+
+.header__icons{
+    display: flex;
+    align-items: center;
+}
+
+.badge__content{
+    position: absolute;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #ff6347;
+    top: -5px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.cart__text{
+    font-size: 1.5rem;
+}
+
+.header__nav-space{
+    margin: 3rem 0rem;
+}
