@@ -12,6 +12,9 @@
  6. You can also include the HTML code in your project to use that component.
  7. All components are customizable so you can also customize accroding to the theme of your project.
  
+ https://user-images.githubusercontent.com/64393554/153144025-fb87404d-fdef-4ae0-b807-db1c83e48df7.mov
+ 
+ 
  # Note -
  
  Milkyway will always improve this UI in future right now it's in Initial phase so just wait and see us grow.
