@@ -13,6 +13,7 @@
 @import url(componentStyle/Navigation.css);
 @import url(componentStyle/Snackbar.css);
 @import url(componentStyle/Modal.css);
+@import url(componentStyle/Rating.css);
 
 
 :root {
@@ -39,6 +40,7 @@
     --modal-btn-text: #6200ee;
     --modal-btn-hover: #ebdbff;
     --dialog-box-bgcolor:rgba(1, 1, 1, 0.5);
+    --rating-star:#ffb400
 }
 
 *{
