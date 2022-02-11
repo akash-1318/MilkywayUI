@@ -1,0 +1,30 @@
+.ratings{
+    padding: 2rem;
+    cursor: pointer;
+}
+.ratings.lg > i{
+    font-size: 2.5rem;   
+}
+
+.ratings.md > i{
+    font-size: 2rem;
+}
+
+.ratings.sm > i{
+    font-size: 1.5rem;
+}
+
+.ratings > :nth-child(1),.ratings > :nth-child(2),.ratings > :nth-child(3){
+    color: var(--rating-star);
+}
+
+.disbale__rating{
+    opacity: .6;
+    cursor:default;
+}
+
+.active__rating > i:hover{
+    transform: scale(1.4);
+    transition: .2s ease-in;
+    color: var(--rating-star);
+}
