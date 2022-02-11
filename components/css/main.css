@@ -13,6 +13,7 @@
 @import url(componentStyle/Navigation.css);
 @import url(componentStyle/Snackbar.css);
 @import url(componentStyle/Modal.css);
+@import url(componentStyle/Grid.css);
 
 
 :root {
