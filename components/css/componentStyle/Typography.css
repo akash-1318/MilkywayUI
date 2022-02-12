@@ -1,0 +1,67 @@
+.h1,h1{
+    font-size: 3.2rem;
+}
+.h2,h2{
+    font-size: 2.5rem;
+}
+.h3,h3{
+    font-size: 2rem;
+}
+.h4,h4{
+    font-size: 1.75rem;
+}
+.h5,h5{
+    font-size: 1.5rem;
+}
+.h6,h6{
+    font-size: 1.25rem;
+}
+
+.heading__text > *{
+    margin: 2rem;
+}
+
+.text__lg,.text__md,.text__sm{
+    line-height: 2rem;
+    padding: 1.5rem;
+}
+
+.text__lg{
+    font-size: 2.5rem;
+}
+
+.text__md{
+    font-size: 2rem;
+}
+
+.text__sm{
+    font-size: 1.5rem;
+}
+
+.text__align-left{
+    text-align: left;
+}
+
+.text__align-center{
+    text-align: center;
+}
+
+.text__align-right{
+    text-align: right;
+}
+
+.text__underline{
+    text-decoration: underline;
+}
+
+.text__strike{
+    text-decoration:line-through;
+}
+
+.text__gray{
+    color: var(--secondry-text-color);
+}
+
+.text__bold{
+    font-weight: bold;
+}
