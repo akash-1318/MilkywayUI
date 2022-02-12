@@ -117,6 +117,6 @@ iframe{
     transform: scale(1);
 }
 
-.code__snippet-style{
-
+.sidebar__menu-link:hover{
+    background-color: #cad1ff;
 }
