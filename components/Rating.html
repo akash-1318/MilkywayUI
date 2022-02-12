@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milkyway</title>
+    <link rel="stylesheet" href="css/main.css">
+    </link>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="main__v2">
+        <header class="header__nav">
+            <div class="header__nav-left">
+                <a href="../index.html"><img src="../assets/images/galaxy.png" class="library__logo"/></a>
+                <a href="../index.html" class="logo__name-link"><p class="library__logo-name">MILKYWAY UI</p></a>
+            </div>
+            <div class="header__nav-right">
+                <a href="https://github.com/akash-1318"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/akash-sharma-0251051a1"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://twitter.com/Akasharma18"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </header>
+        <section class="main__section">
+            <aside class="sidebar">
+                <p class="sidebar__heading">Components</p>
+                <ul class="sidebar__menu">
+                    <li class="sidebar__menu-link"><a href="Avatar.html">
+                            <p>Avatar</p>
+                        </a></li>
+                    <li class="sidebar__menu-link"><a href="Alert.html">
+                            <p>Alert</p>
+                        </a></li>
+                    <li class="sidebar__menu-link"><a href="Badge.html">
+                            <p>Badge</p>
+                        </a></li>
+                    <li class="sidebar__menu-link"><a href="Button.html">
+                            <p>Button</p>
+                        </a></li>
+                    <li class="sidebar__menu-link"><a href="Card.html">
+                            <p>Card</p>
+                        </a></li>
+                    <li class="sidebar__menu-link"><a href="#">
+                            <p>Image</p>
+                        </a></li>
+                    <li class="sidebar__menu-link"><a href="Input.html">
+                            <p>Input</p>
+                        </a></li>
+                    <li class="sidebar__menu-link"><a href="Modal.html">
+                        <p>Modal</p>
+                    </a></li>
+                    <li class="sidebar__menu-link"><a href="Navigation.html">
+                        <p>Navigation</p>
+                    </a></li>
+                    <li class="sidebar__menu-link"><a href="Snackbar.html">
+                        <p>Snackbar</p>
+                    </a></li>
+                    
+                </ul>
+            </aside>
+            <div class="main__grid-item">
+                <div class="component">
+                    <p class="component__heading">Rating</p>
+                    <p class="component__text">
+                        Rating components used for taking reviews from users and helps in providing 
+                        others opinions and experience.
+                    </p>
+                    <p class="component__heading-primary">Read only Rating</p>
+                    <p class="component__sub-text">
+                        Read only ratings are for users to see review on products or services 
+                        you can't change the review. In order to implement rating just add 
+                        <span class="comp__detail-text">.lg,.md,.sm</span> class along with <span class="comp__detail-text">.rating</span> class
+                    </p>
+                    <div class="component__view avatar__comp">
+                        <div class="ratings lg">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <div class="ratings md">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <div class="ratings sm">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                    <div class="code__snippet">
+                        <iframe
+                        src="https://carbon.now.sh/embed/U7LMvQCzdsFGwnEJneBy"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="component__heading-primary">Disabled ratings</p>
+                    <p class="component__sub-text">
+                        For using disabled rating add <span class="comp__detail-text">.disabale_rating</span> class. 
+                    </p>
+                    <div class="component__view ">
+                        <div class="ratings md disbale__rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                    <div class="code__snippet">
+                        <iframe
+                        src="https://carbon.now.sh/embed/bD5L06MMPHI4KnmYd0sL"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="component__heading-primary">Custome Icon rating</p>
+                    <p class="component__sub-text">
+                        Here are some custome icon rating Examples you can implement in your 
+                        project. To use just add <span class="comp__detail-text">.active__rating</span> class.
+                    </p>
+                    <div class="component__view ">
+                        <div class="ratings md active__rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <div class="ratings md active__rating">
+                            <i class='bx bxs-heart'></i>
+                            <i class='bx bxs-heart'></i>
+                            <i class='bx bxs-heart'></i>
+                            <i class='bx bxs-heart'></i>
+                            <i class='bx bxs-heart'></i>
+                        </div>
+                        <div class="ratings md active__rating">
+                            <i class='bx bx-sad'></i>
+                            <i class='bx bx-happy' ></i>
+                            <i class='bx bx-happy-beaming'></i>
+                            <i class='bx bx-happy-heart-eyes' ></i>
+                        </div>
+                    </div>
+                    <div class="code__snippet">
+                        <iframe
+                        src="https://carbon.now.sh/embed/4WZickakumY6DjCTkrYB"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
