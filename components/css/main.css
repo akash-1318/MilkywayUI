@@ -3,6 +3,7 @@
 @import url(sidebar.css);
 @import url(footer.css);
 @import url(common.css);
+@import url(responsive.css);
 @import url(componentStyle/Avatar.css);
 @import url(componentStyle/Alert.css);
 @import url(componentStyle/Badge.css);

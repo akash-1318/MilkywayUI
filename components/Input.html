@@ -16,10 +16,11 @@
     <main class="main__v2">
         <header class="header__nav">
             <div class="header__nav-left">
-                <a href="../index.html"><img src="../assets/images/galaxy.png" class="library__logo" /></a>
-                <a href="../index.html" class="logo__name-link">
+                <a href="../index.html"><img src="../assets/images/galaxy.png" class="library__logo hide__logo" /></a>
+                <a href="../index.html" class="logo__name-link hide__logo-link">
                     <p class="library__logo-name">MILKYWAY UI</p>
                 </a>
+                <div class="menu" id="menu__icon"><i class='bx bx-menu'></i></div>
             </div>
             <div class="header__nav-right">
                 <a href="https://github.com/akash-1318"><i class='bx bxl-github'></i></a>
@@ -27,9 +28,12 @@
                 <a href="https://twitter.com/Akasharma18"><i class='bx bxl-twitter'></i></a>
             </div>
         </header>
-        <section class="main__section">
-            <aside class="sidebar">
-                <p class="sidebar__heading">Components</p>
+        <section class="main__section resp__main-section">
+            <aside id="sidebar" class="sidebar resp__sidebar">
+                <div class="sidebar__header">
+                    <p class="sidebar__heading">Components</p>
+                    <div id="sidebar__close-btn" class="hide__menu-cross"><i class='bx bx-x'></i></div>
+                </div>
                 <ul class="sidebar__menu">
                     <li class="sidebar__menu-link"><a href="Avatar.html">
                             <p>Avatar</p>
@@ -158,7 +162,7 @@
             </div>
         </section>
     </main>
-
+    <script src="../functionality/responsive.js"></script>
 </body>
 
 </html>

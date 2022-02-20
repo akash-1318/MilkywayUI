@@ -1,0 +1,131 @@
+@media only screen and (min-width: 900px){
+    .menu{
+        display: none;
+    }
+    .hide__menu-cross{
+        display: none;
+    }
+}
+@media only screen and (max-width: 500px){
+    .header__nav.resp__header-nav{
+        padding: 1rem 2rem;
+    }
+
+    .library__logo.resp__library-logo{
+        height: 3rem;
+        width: 3rem;
+        margin-right: 1rem;
+    }
+
+    .library__logo-name.resp__logo-name{
+        font-size: 2rem;
+    }
+
+    .header__nav-right.resp__nav-right{
+        font-size: 2rem;
+    }
+
+    .header__nav-right.resp__nav-right > :nth-child(1){
+        margin-right: 2rem;
+    }
+
+    .header__nav-right.resp__nav-right > :nth-child(2){
+        margin-right: 2rem;
+    }
+
+    .main__grid-item, .main__content{
+        padding: 3rem 1.5rem;
+    }
+
+    .component__view.avatar__comp{
+        flex-direction: column;
+    }
+
+    .badge__items{
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .component__view > .snackbar{
+        width: auto;
+    }
+
+    .list__comp.stacked__list{
+        width: 40rem;
+    }
+
+    .inside-dialog-box.show-inside-dialog-box{
+        width: 90%;
+    }
+
+    html{
+        font-size: 52.5% !important;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .library__logo.hide__logo{
+        display: none;
+    }
+
+    .logo__name-link.hide__logo-link{
+        display: none;
+    }
+
+    .menu > i{
+        color: var(--primary-color);
+        font-size: 3rem;
+    }
+
+    .sidebar.resp__sidebar{
+        position: fixed;
+        background-color: white;
+        padding-right: 2rem;
+        padding-bottom: 2.5rem;
+        height:100vh;
+        left: -30rem;
+        z-index: 11;
+        transition: .3s ease-in;
+    }
+
+    .sidebar.aside__visible{
+        left: 0rem;
+        transition: .3s ease-in;
+    }
+
+    .sidebar__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hide__menu-cross > i{
+        font-size: 3rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+        margin-left: 3rem;
+    }
+    .resp__main-section{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'main main'
+            'main main'
+            'main main';
+    }
+
+    .flex__view{
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .header__nav-middle.resp__nav-middle{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 900px) and (min-width: 500px){
+    .inside-dialog-box.show-inside-dialog-box{
+        width: 70%;
+    }
+}
