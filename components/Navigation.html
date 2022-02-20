@@ -16,10 +16,11 @@
     <main class="main__v2">
         <header class="header__nav">
             <div class="header__nav-left">
-                <a href="../index.html"><img src="../assets/images/galaxy.png" class="library__logo" /></a>
-                <a href="../index.html" class="logo__name-link">
+                <a href="../index.html"><img src="../assets/images/galaxy.png" class="library__logo hide__logo" /></a>
+                <a href="../index.html" class="logo__name-link hide__logo-link">
                     <p class="library__logo-name">MILKYWAY UI</p>
                 </a>
+                <div class="menu" id="menu__icon"><i class='bx bx-menu'></i></div>
             </div>
             <div class="header__nav-right">
                 <a href="https://github.com/akash-1318"><i class='bx bxl-github'></i></a>
@@ -27,9 +28,12 @@
                 <a href="https://twitter.com/Akasharma18"><i class='bx bxl-twitter'></i></a>
             </div>
         </header>
-        <section class="main__section">
-            <aside class="sidebar">
-                <p class="sidebar__heading">Components</p>
+        <section class="main__section resp__main-section">
+            <aside id="sidebar" class="sidebar resp__sidebar">
+                <div class="sidebar__header">
+                    <p class="sidebar__heading">Components</p>
+                    <div id="sidebar__close-btn" class="hide__menu-cross"><i class='bx bx-x'></i></div>
+                </div>
                 <ul class="sidebar__menu">
                     <li class="sidebar__menu-link"><a href="Avatar.html">
                             <p>Avatar</p>
@@ -86,10 +90,11 @@
                     <div class="component__view">
                         <header class="header__nav header__nav-space">
                             <div class="header__nav-left">
-                                <a href="#"><img src="../assets/images/galaxy.png" class="library__logo" /></a>
-                                <a href="#" class="logo__name-link">
+                                <a href="#"><img src="../assets/images/galaxy.png" class="library__logo hide__logo" /></a>
+                                <a href="#" class="logo__name-link hide__logo-link">
                                     <p class="library__logo-name">Milkyway</p>
                                 </a>
+                                <div class="menu" id="menu__icon"><i class='bx bx-menu'></i></div>
                             </div>
                             <div class="header__nav-right">
                                 <a href="#"><i class='bx bxl-github'></i></a>
@@ -100,12 +105,15 @@
 
                         <header class="header">
                             <div class="header__nav-left">
-                                <img src="../assets/images/galaxy.png" alt="logo" />
-                                <p class="logo__name">Milkyway</p>
+                                <a href="#"><img src="../assets/images/galaxy.png" class="library__logo hide__logo" /></a>
+                                <a href="#" class="logo__name-link hide__logo-link">
+                                    <p class="library__logo-name">Milkyway</p>
+                                </a>
+                                <div class="menu" id="menu__icon"><i class='bx bx-menu'></i></div>
                             </div>
 
                             <div class="header__nav-right">
-                                <div class="header__nav-middle">
+                                <div class="header__nav-middle resp__nav-middle">
                                     <div class="search__icon"><i class='bx bx-search-alt-2'></i></div>
                                     <input placeholder="search" class="header__search" />
                                 </div>
@@ -129,20 +137,22 @@
                         </header>
                     </div>
                     <div class="code__snippet">
-                        <iframe src="https://carbon.now.sh/embed/XdO0VnDYArn6OrEImhDo"
-                            sandbox="allow-scripts allow-same-origin">
+                        <iframe
+                        src="https://carbon.now.sh/embed/0tnutalRrf2JSC3PGKZC"
+                        sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
                     <div class="code__snippet">
-                        <iframe src="https://carbon.now.sh/embed/it7YRNzi15w7qWG9CJUz"
-                            sandbox="allow-scripts allow-same-origin">
+                        <iframe
+                        src="https://carbon.now.sh/embed/jtwW4byF5j04SY0ReFu7"
+                        sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-
+    <script src="../functionality/responsive.js"></script>
 </body>
 
 </html>
