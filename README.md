@@ -1,6 +1,6 @@
 # MilkywayUI
  
- This is component library by Milkyway to make your development faster and easy it's responsive for both mobile and desktop. You just have to copy paste the classes and bingo you are ready to go with your awesome UI.
+ This is component library by Milkyway to make your development faster and easy it's responsive for both mobile and desktop. You just have to copy paste the HTML code and you are ready to go with your awesome UI.
  
  # How it work ?
  
