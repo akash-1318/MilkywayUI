@@ -71,51 +71,62 @@
                     <li class="sidebar__menu-link"><a href="Rating.html">
                             <p>Rating</p>
                         </a></li>
-                    <li class="sidebar__menu-link"><a href="#">
+                    <li class="sidebar__menu-link"><a href="Grid.html">
                             <p>Grid</p>
                         </a></li>
                     <li class="sidebar__menu-link"><a href="List.html">
                             <p>List</p>
                         </a></li>
-                    <li class="sidebar__menu-link"><a href="slider.html">
+                    <li class="sidebar__menu-link"><a href="#">
                             <p>Slider</p>
-                        </a></li>     
+                        </a></li>        
                 </ul>
             </aside>
             <div class="main__grid-item">
                 <div class="component">
-                    <p class="component__heading">Grid</p>
-                    <p class="component__text">Grid is used to create layout of your webpage. Grid comes
-                        in really handy dealing with complex layout and also helps in improving
-                        responsive webpages.</p>
-                    <p class="component__heading-primary">Grid with two Items</p>
+                    <p class="component__heading">Slider</p>
+                    <p class="component__text">Sliders can be used to define the range of any value like sound, price range, etc.</p>
+                    <p class="component__heading-primary">Simple sliders</p>
+                    <p class="component__sub-text">
+                        Here are two different types of slider with the range 1-100. You can change the value and also disable the slider by implementing <span class="comp__detail-text">disabled</span> keyword .
+                    </p>
                     <div class="component__view">
-                        <div class="grid">
-                            <div class="grid__item1">Item1</div>
-                            <div class="grid__item2">Item2</div>
+                        <div class="slider">
+                            <i class='bx bxs-volume-full' ></i>
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        </div>
+                        <div class="slider">
+                            <i class='bx bxs-volume-full' ></i>
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange" disabled>
                         </div>
                     </div>
                     <div class="code__snippet">
-                        <iframe src="https://carbon.now.sh/embed/bzBWjSqEU8J1I19HnJOb"
-                            sandbox="allow-scripts allow-same-origin">
+                        <iframe
+                        src="https://carbon.now.sh/embed/zBnNhOFYaxo8ctsMSdVX"
+                        sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
 
-                    <p class="component__heading-primary">Grid with Three Items</p>
+                    <p class="component__heading-primary">Customize sliders</p>
                     <p class="component__sub-text">
-                        Full Width Image is the one that expands to cover the container it is present
-                        in.
+                        Here are two different customized sliders with the range 1-100. To add style just 
+                        implement <span class="comp__detail-text">.custom__slider</span> and <span class="comp__detail-text">.slider__light</span> along with
+                        class <span class="comp__detail-text">.slider</span> 
                     </p>
                     <div class="component__view">
-                        <div class="grid grid3">
-                            <div class="grid__item1">Item1</div>
-                            <div class="grid__item2">Item2</div>
-                            <div class="grid__item3">Item3</div>
+                        <div class="slider">
+                            <i class='bx bxs-volume-full' ></i>
+                            <input type="range" min="1" max="100" value="50" class="slider custom__slider" id="myRange">
+                        </div>
+                        <div class="slider">
+                            <i class='bx bxs-volume-full' ></i>
+                            <input type="range" min="1" max="100" value="50" class="slider custom__slider slider__light" id="myRange">
                         </div>
                     </div>
                     <div class="code__snippet">
-                        <iframe src="https://carbon.now.sh/embed/I7u9qOhrKYNuTaWOi90l"
-                            sandbox="allow-scripts allow-same-origin">
+                        <iframe
+                        src="https://carbon.now.sh/embed/D7Dh6rNtUYYOYDZ53sbe"
+                        sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
                 </div>
